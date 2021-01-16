@@ -164,3 +164,7 @@ hr {
 i{
     margin-top: 15px;
 }
+
+.tech-icons i{
+    margin: 0 1.5rem;
+}
