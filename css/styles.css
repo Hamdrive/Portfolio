@@ -9,25 +9,8 @@ span{
     text-decoration: underline;
 }
 
-#hamza-photo{
-    border-radius: 100%;
-    width: 30%;
+.profile{
     margin-top: 50px;
-    padding-bottom: 20px;
-}
-
-.code-img{
-    float: left;
-    margin-right: 30px;
-    margin-top: 60px;
-    width: 40%;
-}
-
-.chai-img{
-    border-radius: 100%;
-    width: 40%;
-    float: right;
-    margin-left: 30px;
 }
 
 .top-container{
@@ -72,11 +55,11 @@ a{
     font-size: 0.75rem;
     color: #11999E;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 20px;
     text-decoration: none;
 }
 
-a:hover{
+i:hover{
+    transition-delay: 20ms;
     color: #EAF6F6;
 }
 
@@ -86,8 +69,13 @@ a:hover{
     margin: 0 auto;
 }
 
+.icons{
+    display: inline-block;
+    overflow: hidden;
+    
+}
 .bottom-container{
-    background-color: #66BFBF;
+    background-color: #66bfbfd5;
     height: 100px;
     padding: 10px 0 20px 0;
     width: 100%;
@@ -117,14 +105,13 @@ a:hover{
 
 .footer-link{
     font-size: 1rem;
-    margin-top: 30px;
     display: inline-block;
-    width: 100px;
 }
 
 .copyright{
     color: #EAF6F6;
     font-size: 0.75rem;
+    margin-top: 1rem;
 }
 
 hr {
@@ -175,6 +162,5 @@ hr {
 }
 
 i{
-    margin-right: 25px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
