@@ -78,7 +78,6 @@ var projectArr = [
 var index = 0;
 for(var project of projectArr){
     index++;
-    console.log(project)
     var projectCard = document.createElement("article");
     projectCard.classList.add("project-card");
     projectCard.innerHTML = `
