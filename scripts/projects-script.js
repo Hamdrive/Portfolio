@@ -46,7 +46,7 @@ var projectArr = [
     {
         title: "Ding Ding Ding!",
         desc: "Have you ever had to return money and thought \"I wonder what is the least number of notes I can return to them so they have to carry less\" ? If so, then this app is for you!",
-        liveURL: "",
+        liveURL: "https://notescounter.netlify.app",
         repoURL: "https://github.com/Hamdrive/markTen",
     },   
     {
