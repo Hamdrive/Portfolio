@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #CAE9FF;
+}
+
+.non-underline{
+    text-decoration: underline;
+}
+
+.profile, .skills, .contact-me{
+    margin: 3rem 0;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.top-container{
+    text-align: center;
+    background-color: #5FA8D3;
+    width: 100%;
+    height: 50%;
+    padding: 3rem 2rem;
+    position: relative;
+    color: #1B4965;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title-text{
+    margin: auto 0;
+}
+
+.title-text h1{
+    font-size: 4rem;
+}
+
+.title-text h2{
+    font-size: 2rem;
+}
+
+.title-svg svg{
+    width: 300px;
+    height: 300px;
+}
+
+.profile-skills, .skills-title, .contact-title{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.contact-text{
+    color: #1B4965;
+    font-size: 1.4rem;
+    padding: 0 5rem;
+}
+
+.intro{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+p{
+    color: #40514E;
+}
+
+a{
+    font-size: 0.75rem;
+    color: #11999E;
+    text-decoration: none;
+}
+
+nav{
+    background-color: #1B4965;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direct-links{
+    margin: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #5FA8D3;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.direct-links:hover, #link-active{
+    background-color: #BEE9E8;
+    color: #1B4965;
+}
+
+i:hover{
+    transition-delay: 20ms;
+    color: #EAF6F6;
+}
+
+
+
+.middle-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.icons i{
+    margin: 0 2rem;
+    color: #CAE9FF;
+}
+
+.icons i:hover{
+    color: #62B6CB;
+}
+
+.bottom-container{
+    background-color: #1B4965;
+    height: 100px;
+    width: 100%;
+}
+
+.skill-row{
+    width: 75%;
+    margin: 100px auto;
+    text-align: left;
+    /*line-height: 2; */
+}
+
+
+
+.footer-link{
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 1rem;
+    text-align: center;
+}
+
+hr {
+    border-style: none;
+    border-top: 5px dotted;
+    border-color: grey;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.contact-message{
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.btn {
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #1B4965;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #BEE9E8;
+    color: #1B4965;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+.tech-icons{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tech-icons i{
+    margin: 0 1.5rem;
+}
+
+.hello-wave {
+    animation-name: waving-motion;  
+    animation-duration: 2.5s;       
+    animation-iteration-count: infinite;  
+    transform-origin: 75% 75%;       
+    display: inline-block;
+}
+
+@keyframes waving-motion {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(18.0deg) }  
+    20% { transform: rotate(-6.0deg) }
+    30% { transform: rotate(15.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(12.0deg) }
+    60% { transform: rotate( 0.0deg) }  
+100% { transform: rotate( 0.0deg) }
+}
