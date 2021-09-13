@@ -16,8 +16,8 @@ var projectArr = [
     {
         title: "My Portfolio",
         desc: "The very portfolio you're looking at!",
-        liveURL: "",
-        repoURL: "",
+        liveURL: "https://hamzahusein.netlify.app",
+        repoURL: "https://github.com/Hamdrive/Portfolio",
     },   
     {
         title: "Bello Banana!",
