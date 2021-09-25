@@ -16,7 +16,7 @@ body{
     text-decoration: underline;
 }
 
-.profile, .skills, .contact-me{
+.profile, .skills, .projects, .blogs, .contact-me{
     margin: 3rem 0;
     text-align: center;
     line-height: 1.3;
@@ -52,7 +52,7 @@ body{
     height: 300px;
 }
 
-.profile-skills, .skills-title, .contact-title{
+.profile-skills, .skills-title, .project-title, .blogs-title, .contact-title{
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 1rem;
@@ -143,6 +143,24 @@ i:hover{
     width: 75%;
     margin: 100px auto;
     text-align: left;
+}
+
+#projects-btn, #blogs-btn{
+    width: auto;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #1B4965;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid #000000;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#projects-btn:hover, #blogs-btn:hover{
+    background-color: #5FA8D3;
+    color: #1B4965;
 }
 
 
