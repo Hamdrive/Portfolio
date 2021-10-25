@@ -2,6 +2,13 @@ var blogDiv = document.querySelector(".blogs");
 
 var blogArr = [
     {
+        title: "Procrastination: Why Embracing it is the solution to Overcome it",
+        date: "Oct 24, 2021",
+        duration: "4",
+        snippet: "For my first non-technical post, I figured why not talk about the very thing which has made me not blog in over 4 months ...",
+        blogURL: "https://hamzahusein.hashnode.dev/procrastination-why-embracing-it-is-the-solution-to-overcome-it"
+    },
+    {
         title: "My first ever Web Dev interview: Journey and Lessons learned",
         date: "Jun 8, 2021",
         duration: "7",
